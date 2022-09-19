@@ -1,0 +1,42 @@
+.progressbar {
+  z-index: 9 !important;
+  /* overflow: hidden !important; */
+}
+
+.progressbar-box {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background: #d8d8d8;
+  color: white;
+  z-index: 9 !important;
+}
+.progressbar-active {
+  background: #936ee9 !important;
+  /* border: 7px solid #46e1fc !important;
+  box-sizing: border-box !important; */
+}
+
+.progressbar-text {
+  color: #d8d8d8;
+}
+.progressbar-text-active {
+  color: #936ee9;
+}
+
+.progressbar-line-active {
+  border: 0.5px solid #936ee9 !important;
+  background: #936ee9 !important;
+  box-sizing: border-box !important;
+}
+
+.progressbar-line {
+  position: relative;
+  background-color: #d8d8d8;
+  width: 100% !important;
+  /* height: 0px; */
+  left: 60%;
+  top: -75px;
+  border: 1px solid #d8d8d8;
+  z-index: -1 !important;
+}
