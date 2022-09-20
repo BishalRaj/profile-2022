@@ -1,14 +1,15 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import "./progressbar.css";
 
 const Progressbar = ({ step }) => {
   // eslint-disable-next-line
   const [title, settitle] = useState([
-    { title: "Personal", logo: <i class="far fa-user fa-2x "></i> },
-    { title: "Academic", logo: <i class="fas fa-user-graduate fa-2x"></i> },
-    { title: "Experience", logo: <i class="fas fa-briefcase fa-2x"></i> },
-    { title: "Skills", logo: <i class="fas fa-tools fa-2x"></i> },
-    { title: "Social", logo: <i class="far fa-handshake fa-2x"></i> },
+    { title: "Personal", logo: <FontAwesomeIcon icon={["far", "fa-user"]} /> },
+    { title: "Academic", logo: <FontAwesomeIcon icon={["fas", "fa-user-graduate"]} />},
+    { title: "Experience", logo:<FontAwesomeIcon icon={["fas", "fa-briefcase"]} />},
+    { title: "Skills", logo:<FontAwesomeIcon icon={["fas", "fa-tools"]} /> },
+    { title: "Social", logo:<FontAwesomeIcon icon={["far", "fa-handshake"]} /> },
   ]);
   return (
     <div className="row py-5 d-flex align-items-center justify-content-center">
@@ -29,7 +30,7 @@ const Progressbar = ({ step }) => {
             </p>
             {index < 4 && (
               <div
-                class={`progressbar-line ${step >= index + 1 && "progressbar-line-active"
+                className={`progressbar-line ${step >= index + 1 && "progressbar-line-active"
                   }`}
               ></div>
             )}
