@@ -1,15 +1,17 @@
 import axios from "axios";
 import React from "react";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
   var hasError = false;
-
+  let navigate = useNavigate();
   const submitData = () => {
-    axios.get("/test").then((data) => {
-      console.log(data);
-    });
+    navigate("/home");
+
+    // axios.get("/test").then((data) => {
+    //   console.log(data);
+    // });
   };
 
   return (

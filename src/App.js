@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import Auth from './layout/authLayout'
 import Register from './layout/authLayout/register'
+import Home from './layout/homeLayout'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -17,7 +18,7 @@ function App() {
   return <Routes>
     <Route path='/' element={<Auth />} />
     <Route path="/register" element={<Register />} />
-    <Route path="/home" element={<Register />} />
+    <Route path="/home" element={<Home />} />
   </Routes>
 }
 
