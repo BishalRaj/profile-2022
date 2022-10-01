@@ -6,7 +6,7 @@ import logo from "../../../images/one.png";
 function Intro() {
   return (
     <Container className="c-h-700" id="intro">
-      <Row className="h-100 align-items-center">
+      <Row className="h-100 align-items-center d-flex justify-content-between">
         <Col lg={6} md={6} sm={12} xs={12}>
           <h6 className="font-weight-bold default-color-primary mb-4">
             HELLO! <span className=" ml-3">नमस्ते</span>
@@ -31,7 +31,7 @@ function Intro() {
           <Link
             to="contact"
             spy={true}
-            className="btn rounded-pill intro-btn outline-btn ml-2 py-2 px-5"
+            className="btn rounded-pill intro-btn outline-btn ml-2 py-2 px-5 mx-2"
           >
             <small>
               <b>Contact Me</b>
@@ -39,7 +39,7 @@ function Intro() {
           </Link>
         </Col>
         <Col lg={6} md={6} xs={12}>
-          <Image src={logo} className="w-75 profile-img" />
+          <Image src={logo} className="w-75 profile-img shadowfilter" />
         </Col>
       </Row>
     </Container>

@@ -30,10 +30,10 @@ function projects() {
             <Image src={actualWidth === 4 ? imgSmall : imgLarge} width={'100%'} />
           </div>
           <div
-            className="image-centered-text h-100"
-            style={{
-              width: actualWidth === 4 ? "92.5%" : "96.5%",
-            }}
+            className="image-centered-text h-100 w-100"
+            // style={{
+            //   width: actualWidth === 4 ? "92.5%" : "96.5%",
+            // }}
           >
             <p
               style={{

@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <Container>
       <Navbar
-        collapseOnSelect
+        // collapseOnSelect
         fixed="top"
         expand="lg"
         className="px-4 py-3 mx-5"

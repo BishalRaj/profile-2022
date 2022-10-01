@@ -84,7 +84,7 @@ function footer() {
             </Col>
           </Row>
         </Col>
-        <Col lg={12} md={6}>
+        <Col lg={2} md={6} className="d-flex justify-content-between" >
           <div
             className=" default-bg-color-secondary d-flex align-items-center justify-content-center mb-5 icon-div float-left mr-3"
             style={{ borderRadius: "50%", height: "55px", width: "55px" }}

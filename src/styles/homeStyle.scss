@@ -59,6 +59,11 @@ body {
 
 .app.theme-dark{
    
+    .shadowfilter {
+        -webkit-filter: drop-shadow(5px 5px 7px rgba(254,188 ,57, 0.4));
+         filter: drop-shadow(5px 5px 7px rgba(254,188 ,57, 0.4));
+    }
+
     background-color: #000000;
     .navbar{
     background-color: #000000;
@@ -115,6 +120,11 @@ body {
 }
 
 .app.theme-light{
+    .shadowfilter {
+        -webkit-filter: drop-shadow(5px 5px 7px rgba(0,0,0, 0.5));
+         filter: drop-shadow(5px 5px 7px rgba(0,0,0, 0.5));
+    }
+
     background-color: whitesmoke;
     .default-bg-color-primary{
         background-color: #000000;
@@ -213,7 +223,11 @@ body {
 }
 
 .app.theme-purple{
-   
+    .shadowfilter {
+        -webkit-filter: drop-shadow(6px 6px 8px rgba( 	220 ,	4 ,	253, 0.4));
+         filter: drop-shadow(6px 6px 8px rgba( 	220 	,4 ,	253, 0.4));
+    }
+
     background-color: #000000;
     .navbar{
     background-color: #000000;
@@ -293,6 +307,10 @@ body {
 
 .app.theme-green{
 
+    .shadowfilter {
+        -webkit-filter: drop-shadow(6px 6px 8px rgba(254, 	188, 	57, 0.4));
+         filter: drop-shadow(6px 6px 8px rgba(254, 	188, 	57, 0.4));
+    }
     .navbar{
         background-color: #0F3832;
         color: #999999 !important;
@@ -344,6 +362,11 @@ body {
 }
 
 .app.theme-pink{
+    .shadowfilter {
+        -webkit-filter: drop-shadow(6px 6px 8px rgba(93,0,29, 1));
+         filter: drop-shadow(6px 6px 8px rgba(93,0,29, 1));
+    }
+
    background-color: #EE4C7D;
     .default-bg-color-primary{
         background-color: #991851;
@@ -353,7 +376,7 @@ body {
     }
     .default-color-primary{
         color: #5D001D;
-        fill:#EE4C7D;
+        fill: #5D001D;
     }
     .default-color-secondary{
         color: #fff;
@@ -431,6 +454,11 @@ body {
 }
 
 .app.theme-cyan{
+    .shadowfilter {
+        -webkit-filter: drop-shadow(5px 5px 7px rgba(102 	,252 	,241, 0.4));
+         filter: drop-shadow(5px 5px 7px rgba(102 	,252 	,241, 0.4));
+    }
+
     background-color: #1F2833;
     .default-bg-color-primary{
         background-color: #0F3832;
@@ -440,7 +468,7 @@ body {
     }
     .default-color-primary{
         color: #66FCF1;
-        fill:#202833;
+        fill: #66FCF1;
     }
     .default-color-secondary{
         color: #fff;
@@ -646,8 +674,8 @@ body {
 .image-centered-text{
     transition: .5s ease;
     opacity: 0;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: -96%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -677,6 +705,8 @@ body {
 ul {
 list-style: none;
 }
+
+
 
 @media (max-width: 768px) {
     .navbar{

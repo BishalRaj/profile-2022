@@ -28,7 +28,7 @@ const Index = () => {
       <homePage.Projects />
       {/* <Contact /> */}
       <homePage.Footer />
-      {/* <BottomNavBar clickMe={toggleTheme} /> */}
+      <homePage.BottomNavbar clickMe={toggleTheme} />
     </div>
   );
 };
