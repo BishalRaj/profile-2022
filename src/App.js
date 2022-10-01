@@ -17,6 +17,7 @@ function App() {
   return <Routes>
     <Route path='/' element={<Auth />} />
     <Route path="/register" element={<Register />} />
+    <Route path="/home" element={<Register />} />
   </Routes>
 }
 
