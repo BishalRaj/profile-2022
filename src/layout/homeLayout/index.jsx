@@ -22,7 +22,7 @@ const Index = () => {
       <homePage.NavBar />
       <homePage.Intro />
       <homePage.About />
-      {/* <Resume admin={props.admin} /> */}
+      <homePage.Resume />
       <homePage.Services />
       <homePage.Skills />
       <homePage.Projects />
