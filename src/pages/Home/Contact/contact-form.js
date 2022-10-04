@@ -8,6 +8,7 @@ function form() {
         lg={6}
         md={6}
         className="overflow-hidden d-flex align-items-center justify-content-center default-bg-color-secondary px-4 pt-4 mb-5"
+        // style={{height:'35rem'}}
       >
         <Image src={img} className="profile-img" fluid></Image>
       </Col>
@@ -18,19 +19,19 @@ function form() {
             <Form.Control
               type="text"
               placeholder="Your Name"
-              className="py-4"
+              className="py-3 my-2"
             />
           </Form.Group>
           <Form.Group>
             <Form.Control
               type="email"
               placeholder="Your Email"
-              className="py-4"
+              className="py-3 my-2"
             />
           </Form.Group>
 
           <Form.Group>
-            <Form.Control type="text" placeholder="Subject" className="py-4" />
+            <Form.Control type="text" placeholder="Subject" className="py-3 my-2" />
           </Form.Group>
 
           <Form.Group>
@@ -38,7 +39,7 @@ function form() {
               as="textarea"
               rows={5}
               placeholder="Message"
-              className="py-4"
+              className="py-3 my-2"
             />
           </Form.Group>
 

@@ -26,7 +26,7 @@ const Index = () => {
       <homePage.Services />
       <homePage.Skills />
       <homePage.Projects />
-      {/* <Contact /> */}
+      <homePage.Contact />
       <homePage.Footer />
       <homePage.BottomNavbar clickMe={toggleTheme} />
     </div>
