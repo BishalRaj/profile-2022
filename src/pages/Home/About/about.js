@@ -13,11 +13,11 @@ function about() {
 
   var data = [
     { key: "Name:", value: "Bishal Raj Shakya" },
-    { key: "Date of birth:", value: "February 28, 1998" },
-    { key: "Address:", value: "Bungamati, Lalitpur, Nepal" },
-    { key: "Zip code:", value: "44700" },
+    // { key: "Date of birth:", value: "February 28, 1998" },
+    { key: "Address:", value: "Aldershot, United Kingdom" },
+    { key: "Zip code:", value: "GU11BG " },
     { key: "Email:", value: "bisal1shakya@gmail.com" },
-    { key: "Phone:", value: "+977-9843219471" },
+    // { key: "Phone:", value: "+977-9843219471" },
   ];
 
   var key = 1;
